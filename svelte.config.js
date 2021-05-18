@@ -8,8 +8,8 @@ const config = {
     vite: {
 			resolve: {
 				alias: {
-					$utils: path.resolve('./src/utils'),
-          $components: path.resolve('./src/components')
+					'@utils': path.resolve('./src/utils'),
+          '@components': path.resolve('./src/components')
 				}
 			}
 		}
