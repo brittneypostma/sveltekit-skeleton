@@ -1,13 +1,11 @@
 {
-	"compilerOptions": {
-		"baseUrl": ".",
+  "compilerOptions": {
+    "baseUrl": ".",
     "experimentalDecorators": true,
-		"paths": {
-      "@components/*": ["src/components/*"],
-			"$lib/*": ["src/lib/*"],
+    "paths": {
+      "@lib/*": ["src/lib/*"],
       "@utils/*": ["src/utils/*"]
-		}
-	},
-	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"],
-
+    }
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
 }
