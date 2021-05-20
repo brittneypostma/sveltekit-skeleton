@@ -1,9 +1,10 @@
+<!-- Root of the site, the home page -->
 <script context="module">
   export const prerender = true
 </script>
 
 <script>
-  import Counter from '@lib/Counter.svelte'
+  import Counter from '$lib/counter.svelte'
 </script>
 
 <svelte:head>
@@ -29,7 +30,7 @@
   <Counter />
 </section>
 
-<style>
+<style style lang="postcss">
   section {
     display: flex;
     flex-direction: column;

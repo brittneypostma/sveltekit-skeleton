@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "experimentalDecorators": true,
     "paths": {
-      "@lib/*": ["src/lib/*"],
-      "@utils/*": ["src/utils/*"]
+      "$lib/*": ["src/lib/*"],
+      "$utils/*": ["src/utils/*"]
     }
   },
   "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
