@@ -14,6 +14,8 @@
       <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
     </svg>
     <ul>
+      <!-- class:active if {} is true -->
+      <!-- sveltekit:prefetch, causes the "load" function to run when the user hovers rather than after the click event has fired. -->
       <li class:active={$page.path === '/'}>
         <a sveltekit:prefetch href="/">Home</a>
       </li>
@@ -30,19 +32,18 @@
   </nav>
 
   <div class="corner">
-    <!-- TODO put something else here? github link? -->
+    <a rel="external" href="https://github.com/brittneypostma">
+      <img src="gh.png" alt="github" />
+    </a>
   </div>
 </header>
 
 <style>
   header {
+    padding: 0 1rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-  }
-
-  .corner {
-    width: 3em;
-    height: 3em;
   }
 
   .corner a {

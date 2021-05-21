@@ -4,6 +4,8 @@
   let count = 0
 
   const displayed_count = spring()
+
+  // Svelte automatically updates the DOM when the state changes, but we want to rerun the code if these referenced values change.
   $: displayed_count.set(count)
   $: offset = modulo($displayed_count, 1)
 

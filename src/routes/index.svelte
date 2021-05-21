@@ -4,7 +4,7 @@
 </script>
 
 <script>
-  import Counter from '$lib/counter.svelte'
+  import Auth from '$lib/auth.svelte'
 </script>
 
 <svelte:head>
@@ -19,7 +19,6 @@
         <img src="svelte-welcome.png" alt="Welcome" />
       </picture>
     </div>
-
     to your new<br />SvelteKit app
   </h1>
 
@@ -27,7 +26,8 @@
     try editing <strong>src/routes/index.svelte</strong>
   </h2>
 
-  <Counter />
+  <Auth />
+  <!-- <Counter /> -->
 </section>
 
 <style style lang="postcss">
