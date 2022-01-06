@@ -1,5 +1,5 @@
 <script>
-  import { page } from '$app/env'
+  import { page } from '$app/stores'
 </script>
 
 <header>
